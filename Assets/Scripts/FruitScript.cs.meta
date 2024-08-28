@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 892c71ab20253854ca40413545b0c113
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Strawberry: {instanceID: 0}
+  - BlackBerry: {instanceID: 0}
+  - RaspBerry: {instanceID: 0}
+  - Peach: {instanceID: 0}
+  - Apple: {instanceID: 0}
+  - Pear: {instanceID: 0}
+  - Banana: {instanceID: 0}
+  - Orange: {instanceID: 0}
+  - Coconut: {instanceID: 0}
+  - StarFruit: {instanceID: 0}
+  - Watermelon: {instanceID: 0}
+  - particleSystem: {fileID: 1299453376073309801, guid: e22a70cb1d4ea42488158627063d1243, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

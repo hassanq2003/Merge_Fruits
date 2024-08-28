@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4684843584079568945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224948852080969058}
+  - component: {fileID: 8963819081111995235}
+  m_Layer: 0
+  m_Name: Spawner_for_menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224948852080969058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684843584079568945}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.14, y: -5.46, z: 7.5207424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8963819081111995235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684843584079568945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5231fe91ff0d980458cd2b776420e0ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitPrefabs:
+  - {fileID: 7554931334512575244, guid: cdf25ce40fda44c4a94d95c86f1de438, type: 3}
+  - {fileID: 3993309208243765829, guid: 8d1b2af83ba68d1458e9939330964152, type: 3}
+  - {fileID: 5158890132589485983, guid: 61060779c3c9efc4ca7db53614c31a53, type: 3}
+  - {fileID: 763081591857286435, guid: 0ce1bc0d53197654694fbe2eeb909639, type: 3}
+  - {fileID: 7704868079591101428, guid: a229f192686c829439a048d7fab95e06, type: 3}
+  - {fileID: 6230928126964435221, guid: 2df8329bf527d98459c30d534194ddb9, type: 3}
+  - {fileID: 9158126997035519287, guid: 8196f114aac2c1641b875051ad03cbfd, type: 3}
+  - {fileID: 7137034905267174015, guid: ef2a0da49837fa84499471644f6fd989, type: 3}
+  spawnDelay: 2
+  minVelocity: 15
+  maxVelocity: 25
+  minAngle: 60
+  maxAngle: 147
